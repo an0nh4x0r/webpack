@@ -1,2 +1,2 @@
 var $ = require('jquery');
-$('#target').html('hello world');
+$('#target').html('hello world!!!!! running webpack in watch mode! yay!');
