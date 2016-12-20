@@ -16,5 +16,8 @@
     "es6"
   ],
   "author": "Swapnil SIngh",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
 }
