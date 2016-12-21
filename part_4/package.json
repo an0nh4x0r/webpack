@@ -1,0 +1,15 @@
+{
+  "name": "part_4",
+  "version": "1.0.0",
+  "description": "transpiling and bundling coffee script to javascript using coffee-loader in webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "an0nh4x0r",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.12.2"
+  }
+}
