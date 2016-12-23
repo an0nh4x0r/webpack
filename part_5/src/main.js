@@ -12,4 +12,5 @@ class Message implements React.Component {
 
 }
 
-ReactDOM.render(<Message title="Swapnil Singh" message="Getting a new macOS Seirra" />);
+ReactDOM.render(<Message title="Swapnil Singh" message="Getting a new macOS Seirra" />,
+    document.getElementById('react-container'));
