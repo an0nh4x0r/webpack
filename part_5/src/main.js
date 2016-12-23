@@ -1,13 +1,15 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-class Message implements React.Component {
+class Message extends React.Component {
 
     render() {
-        return(<div>
-            <h1>{ this.props.title }</h1>
-            <p>{ this.props.message }</p>
-        </div>);
+        return(
+          <div>
+              <h1>{this.props.title}</h1>
+              <p>{this.props.message}</p>
+          </div>
+        );
     }
 
 }
