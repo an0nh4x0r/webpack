@@ -1,0 +1,20 @@
+{
+  "name": "part_5",
+  "version": "1.0.0",
+  "description": "Reactjs app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/an0nh4x0r/webpack"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "es6"
+  ],
+  "author": "an0nh4x0r",
+  "license": "MIT"
+}
