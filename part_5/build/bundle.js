@@ -70,27 +70,14 @@
 	    _createClass(Message, [{
 	        key: 'render',
 	        value: function render() {
-	            return React.createElement(
-	                'div',
-	                null,
-	                React.createElement(
-	                    'h1',
-	                    null,
-	                    this.props.title
-	                ),
-	                React.createElement(
-	                    'p',
-	                    null,
-	                    this.props.message
-	                )
-	            );
+	            return React.createElement('div', null);
 	        }
 	    }]);
 
 	    return Message;
 	}(React.Component);
 
-	ReactDOM.render(React.createElement(Message, { title: 'Swapnil Singh', message: 'Getting a new macOS Seirra' }), document.getElementById('react-container'));
+	ReactDOM.render(React.createElement(Message, null), document.getElementById('react-container'));
 
 /***/ },
 /* 1 */
@@ -21515,7 +21502,7 @@
 	var content = __webpack_require__(179);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(181)(content, {});
+	var update = __webpack_require__(182)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -21540,7 +21527,7 @@
 
 
 	// module
-	exports.push([module.id, "div {\n  background-color: #00ff00;\n  color: #ffffff; }\n", ""]);
+	exports.push([module.id, "div {\n  background: url(" + __webpack_require__(181) + "); }\n", ""]);
 
 	// exports
 
@@ -21603,6 +21590,12 @@
 
 /***/ },
 /* 181 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "3166d1169966ce5f8472713fc57ace47.jpg";
+
+/***/ },
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
